@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="nxMGD7" name="HelloWorld" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="yS8iFs" name="HelloWorld">
+    <GROUP id="{2C7D44DA-A75F-1066-9A6C-FE298CEB43E8}" name="Source">
+      <FILE id="AgjCtG" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="AMDlgc" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="gigLBy" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="HelloWorld"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="HelloWorld"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../juce-7.0.5-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
